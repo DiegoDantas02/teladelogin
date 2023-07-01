@@ -1,6 +1,6 @@
 <?php
 include "../inc/cabecalho.php";
-include "../inc/menu.php";
+
 ?>
 <?php
 // Inicialize a sessão
@@ -95,10 +95,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{ font: 14px sans-serif; }
         .wrapper{ width: 360px; padding: 20px; }
+        
     </style>
 </head>
+
 <body>
-    <div class="wrapper">
+    <div class="wrapper text-center">
         <h2>Login</h2>
         <p>Por favor, preencha os campos para fazer o login.</p>
 
@@ -125,6 +127,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <p>Não tem uma conta? <a href="register.php">Inscreva-se agora</a>.</p>
         </form>
     </div>
+</body>
+
 <?php
 include "../inc/rodape.php";
 ?>

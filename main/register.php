@@ -1,4 +1,7 @@
 <?php
+include "../inc/cabecalho.php";
+?>
+<?php
 // Incluir arquivo de configuração
 require_once "config.php";
  

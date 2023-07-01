@@ -1,8 +1,4 @@
 <?php
-include "../inc/cabecalho.php";
-include "../inc/menu.php";
-?>
-<?php
 // Inicialize a sessão
 session_start();
  
@@ -107,6 +103,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
         </form>
     </div>    
-    <?php
-include "../inc/rodape.php";
-?>
+</body>
+</html>
