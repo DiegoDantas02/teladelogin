@@ -1,4 +1,8 @@
 <?php
+include "../inc/cabecalho.php";
+include "../inc/menu.php";
+?>
+<?php
 // Inicialize a sessão
 session_start();
  
@@ -86,12 +90,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 ?>
  
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    
     <style>
         body{ font: 14px sans-serif; }
         .wrapper{ width: 360px; padding: 20px; }
@@ -125,5 +125,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <p>Não tem uma conta? <a href="register.php">Inscreva-se agora</a>.</p>
         </form>
     </div>
-</body>
-</html>
+<?php
+include "../inc/rodape.php";
+?>

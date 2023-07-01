@@ -132,5 +132,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <p>Já tem uma conta? <a href="login.php">Entre aqui</a>.</p>
         </form>
     </div>    
-</body>
-</html>
+    <?php
+include "../inc/rodape.php";
+?>
